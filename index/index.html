@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <title>颖启康源医院</title>
+    <link rel="icon" href="../img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/侧边栏.css">
+
+</head>
+<body>
+    <div class="container">
+        <!--侧边栏-->
+    <div class="right" id="sidebar">
+        <div class="collapse-btn" onclick="toggleSidebar()">
+            <i class="fa-solid fa-arrow-left" id="collapse-arrow"></i>
+        </div>
+        <div class="right_on">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../img/yu yue.png" alt="yuyue">
+                        <br>
+                        预约挂号
+                    </a>
+                </li>
+                <li>
+                    <div class="jingling1"></div>
+                    <br>
+                    <a href="#">医院导航</a>
+                </li>
+                <li>
+                    <div class="jingling2"></div>
+                    <br>
+                    <a href="#">专家咨询</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/gongzhonghao.png" alt="yuyue">
+                        <br>
+                        &nbsp;&nbsp;公众号
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        <div class="model head">
+        <!--第一个模块 头部logo-->
+        <div class="header">
+            <img src="../img/header.png" alt="logo图" class="logo" height="120" width="100%">
+            <div class="head_name"><a href="../index/index.html">首&nbsp;&nbsp;页</a></div>
+            <div class="head_name"><a href="../html/Hospital Overview.html">医院概况</a>
+                <div class="dropdown">
+                    <a href="../html/Hospital Overview.html#overview-section">简介</a>
+                    <a href="../html/Hospital Overview.html#culture-section">文化</a>
+                    <a href="../html/Hospital Overview.html#equipment-section">设备</a>
+                </div>
+            </div>
+            <div class="head_name"><a href="#">患者服务</a>
+                <div class="dropdown">
+                    <div class="dropdown_content"><a href="../html/hospital navigation.html">医院导航</a></div>
+                    <div class="dropdown_content"><a href="../html/register appointment.html">挂号</a></div>
+                    <div class="dropdown_content"><a href="../html/jiu yi liu cheng.html">就医流程</a></div>
+                </div>
+            </div>
+            <div class="head_name"><a href="../html/Department Navigation.html">科室导航</a></div>
+            <div class="head_name"><a href="../html/chaxunfuwu.html">登录/注册</a></div>
+            <div class="head_name"><a href="../html/old.html" style="color: rgb(51, 217, 33);">老年模式</a></div>
+        </div>
+            <ul class="slider">
+                <a onclick="prevSlide()"><div class="button_left"></div></a>
+                <li><img src="../img/environment1.jpg"/></li>
+                <div class="slider_word">踏入医院走廊，仿若置身于一片宁静有序的空间。明亮的光线自天花板倾泻而下，将每一处角落都映照得毫无阴霾，
+                    宽敞的通道足以让数人并行，毫无局促之感，为患者带来极为舒适的通行体验。沿着走廊的墙边，坚固且设计合理的扶手一路蜿蜒，不仅仅是简单的装饰，
+                    它承载着对行动不便者浓浓的人文关怀。目光所及之处，各类指示标识被巧妙地安置在显眼位置，它们以简洁明了的图案与文字，为患者指引着方向,为患者就医筑牢便利与安心的坚实保障。​
+                </div>
+                <li><img src="../img/environment2.jpg"/></li>
+                <div class="slider_word">本医院的外观尽显现代大气之风范，引人瞩目。大面积铺设的玻璃幕墙，宛如一面巨大的镜子，将自然光线毫无保留地引入室内，使得整个建筑通透明亮，采光效果绝佳。
+                    无论是阳光明媚的白昼，还是余晖尚存的傍晚，室内都明亮敞亮，毫无昏暗压抑之感。医院的布局经过精心规划，呈现出规整的几何形状，线条简洁流畅，搭配上简约的设计风格，处处彰显着专业与
+                    高效的特质。这样的环境，首先给予患者舒适的视觉享受，一扫传统医院带来的沉闷感。</div>
+                <li><img src="../img/environment3.jpg"/></li>
+                <div class="slider_word">本医院外观尽显独特的现代感，流畅的线条犹如灵动的笔触，勾勒出建筑的轮廓，与大片通透的玻璃幕墙相得益彰，时尚大气之感扑面而来。阳光毫无阻碍地透过玻璃幕墙，
+                    肆意倾洒在每一处空间，充足的采光为患者营造出温馨、舒适的氛围，彰显出对患者全方位的人文关怀。这新颖设计绝非徒有其表，背后蕴含着前沿的医疗理念与先
+                    进技术。内部配备的各类先进设施，恰似精密的健康卫士；专业医护团队提供的优质服务。</div>
+                <a onclick="nextSlide()"><div class="button_right"></div></a>
+            </ul>
+            <ul class="slider_num">
+                <!-- 按钮 -->
+                <li class="slider_num_active"><a onclick="showSlide(0)"></a></li>
+                <a onclick="showSlide(1)"><li></li></a>
+                <a onclick="showSlide(2)"><li></li></a>
+            </ul>
+            <div class="video">
+            <video controls style="width: 85%; height: auto;">
+                <source src="../img/video.MP4" type="video/MP4">
+            </video>
+            </div>
+        </div>
+    <!-- 新闻页面 -->
+            <div class="model news" >
+                <div class="news_left">
+                    <h1 class="left_title">颖启康源医院正迎来新突破</h1>
+                    <div class="banner">
+                        <div class="banner_img">
+                            <img src="../img/Emergency hospital bed.jpg">
+                            <img src="../img/device/ambulance.jpg">
+                            <img src="../img/operation/operation 1.jpg">
+                        </div>
+                    </div>
+                    <div class="news_left_word">
+                        <h2>[颖启康源医院] 升级医疗硬件，守护患者健康</h2>
+                        <p>近日，[颖启康源医院] 在提升医疗服务质量上迈出坚实步伐，完成一系列医疗硬件升级。全新引进的 “Dimensions” 乳腺钼靶机，以其先进技术极大提高乳腺疾病早期诊断精准度。多台多功能病床投入使用，为住院患者带来更舒适便捷体验。新型救护车加入急救队伍，配备先进急救设备，确保危急重症患者转运高效安全。医院将持续发力，为患者提供更优质医疗服务。</p>
+                    </div>
+                </div>
+                <div class="news_line"></div>
+                <div class="news_right">
+                   <h1 class=".news_right_title">新闻概要</h1>
+                   <p>2025.02.02</p>
+                    <a href="#"><p>《[颖启康源医院] 正式上线，开启医疗服务新模式 》</p></a>
+                    <p>2025.02.10</p>
+                    <a href="#"><p>《[颖启康源医院] 首月服务患者超 200000 人次，满意度高达 90%》</p></a>
+                    <p>2025.02.24</p>
+                    <a href="#"><p>《[颖启康源医院] 优化服务流程，患者就医体验再升级》</p></a>
+                    <p>2025.03.02</p>
+                    <a href="#"><p>《[颖启康源医院] 与多家药企达成合作，保障药品供应》</p></a>
+                    <p>2025.03.10</p>
+                    <a href="#"><p>《[颖启康源医院] 推出 AI 辅助诊断系统，提升医疗效率与准确性》</p></a>
+                    <p>2025.03.11</p>
+                    <a href="#"><p>《[颖启康源医院] 开展远程医疗培训，提升基层医疗水平》</p></a>
+                    <p>2025.03.25</p>
+                    <a href="#"><p>《[颖启康源医院] 荣获 “年度创新医疗平台” 称号》</p></a>
+                    <p>2025.04.02</p>
+                    <a href="#"><p>《[颖启康源医院] 携手科研机构，推进医疗技术创新研究》</p></a>
+                </div>
+            </div>
+            <!-- 专家介绍 -->
+            <div class="model expert">
+                <h1 class="expert_title">专家介绍</h1>
+                <button><a href="#">前往查找科室医生</a></button>
+                <div class="expert_banner">
+                <div class="doctor">
+                    <div class="doctor_pic"><img src="../img/doctor1.jpg"></div>
+                    <div class="doctor_back">
+                        <h3>张三</h3>
+                        <p>职称：主任医师</p>
+                        <p>科室：内科</p>
+                        <p>擅长领域：心血管疾病、糖尿病的综合管理</p>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <div class="doctor_pic"><img src="../img/doctor2.jpg"></div>
+                    <div class="doctor_back">
+                        <h3>李四</h3>
+                        <p>职称：副主任医师</p>
+                        <p>科室：外科</p>
+                        <p>擅长领域：胃肠道肿瘤根治术、甲状腺疾病手术治疗</p>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <div class="doctor_pic"><img src="../img/doctor3.jpg"></div>
+                    <div class="doctor_back">
+                        <h3>赵五</h3>
+                        <p>职称：主治医师</p>
+                        <p>科室：妇产科</p>
+                        <p>擅长领域：孕期保健、高危妊娠管理</p>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <div class="doctor_pic"><img src="../img/doctor4.jpg"></div>
+                    <div class="doctor_back">
+                        <h3>周六</h3>
+                        <p>职称：儿科专家</p>
+                        <p>科室：儿科</p>
+                        <p>擅长领域：小儿呼吸系统疾病、消化系统疾病的诊治</p>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <div class="doctor_pic"><img src="../img/doctor5.jpg"></div>
+                    <div class="doctor_back">
+                        <h3>王三</h3>
+                        <p>职称：副主任医师</p>
+                        <p>科室：口腔科</p>
+                        <p>擅长领域：牙齿正畸、口腔修复方面</p>
+                    </div>
+                </div>
+                <div class="doctor_popup">
+                    <h3>是否预约该医生的挂号</h3>
+                    <button id="doctorButtonYes">是的</button>
+                    <button id="doctorButtonNo">取消</button>
+                </div>
+            </div>
+            <div class="doctor_popup_yes">
+                <div class="close">X</div>
+                <h1>预约成功</h1>
+            </div>
+            </div>
+            <!-- 底部栏 -->
+            <div class="model bottom">
+                <div class="bottom_box">
+                    <div class="bottom_box_cont">
+                        <!-- 微信公众号 -->
+                        <div class="bottom_box_cont_code">
+                            <div class="bottom_box_cont_code_left">
+                                <p>扫描关注</p><i>微信公众号</i>
+                                <img src="../img/ewm.jpg"/>
+                                <div class="bottom_box_cont_code_left_line"></div>
+                                <p>微信公众号：<span>颖启康源医院</span></p>
+                            </div>
+                            <div class="bottom_box_cont_code_left">
+                                <p>扫描支付</p><i>支付宝</i>
+                                <img src="../img/ewm.jpg"/>
+                                <div class="bottom_box_cont_code_left_line"></div>
+                                <p>官网收款号：<span>颖启康源医院</span></p>
+                            </div>
+                            <div class="bottom_box_cont_code_left">
+                                <p>详细咨询：</p><i>客服服务</i>
+                                <img src="../img/qrcode-phone.jpg"/>
+                                <div class="bottom_box_cont_code_left_line"></div>
+                                <p>投诉邮箱：<span>tousu@qwe.com</span></p>
+                                <p>投诉电话：<span>1234-123-123</span></p>
+                                <p>服务时间：<span>09:00—22:00</span></p>
+                            </div>
+                            <div class="bottom_box_cont_code_right">
+                                <div class="bottom_box_cont_code_right_title">联系电话</div>
+                                <div class="bottom_box_cont_code_right_img"></div>
+                                <div class="bottom_box_cont_code_right_line"></div>
+                                <p><span>急诊急救：</span><span>727995632</span></p>
+                                <p><span>挂号咨询：</span><span>754029875</span></p>
+                                <p><span>总值班室：</span><span>794802967</span></p>
+                                <p><span>心理咨询(1)：</span><span>863519222</span></p>
+                                <p><span>心理咨询(2)：</span><span>820795861</span></p>
+                                <p><span>心理咨询(3)：</span><span>549384385</span></p>
+                            </div>
+                        </div>
+                        <!-- 合作媒体 -->
+                        <div class="bottom_box_cont_media">
+                            <div class="bottom_box_cont_media_title">相关官方</div>
+                            <div class="bottom_box_cont_media_cont">
+                            <div class="bottom_box_cont_media_cont_btn_left" onclick="turnLeft()"></div>
+                            <div class="bottom_box_cont_media_cont_img">
+                                <img src="../img/bottom1.png"/>
+                                <img src="../img/bottom2.jpg"/>
+                                <img src="../img/bottom3.png"/>
+                                <img src="../img/bottom1.png"/>
+                                <img src="../img/bottom2.jpg"/>
+                                <img src="../img/bottom3.png"/>
+                            </div>
+                            <div class="bottom_box_cont_media_cont_btn_right" onclick="turnRight()"></div>
+                        </div>
+                    </div>
+                    <!-- 返回顶部 -->
+                        <div class="bottom_box_cont_btn">
+                            <a href="#">
+                            <div class="bottom_box_cont_btn_img"></div>
+                            <span>返回顶部</span></a>
+                        </div>
+                    </div>
+                    <!-- 认证信息 -->
+                    <div class="bottom_box_bottom">
+                        <div class="bottom_box_bottom_text">
+                            <div>
+                                <p>备案编号：川R-20250401</p>
+                                <span>｜</span>
+                            </div>
+                            <div>
+                                <p>参考官网</p>
+                                <span>：</span>
+                            </div>
+                            <div>
+                                <p>南充市中心医院</p>
+                                <span>&</span>
+                            </div>
+                            <div>
+                                <p>南充市身心医院</p>
+                                <span>｜</span>
+                            </div>
+                            <div>
+                                <p>制作小组</p>
+                                <span>：</span>
+                            </div>
+                            <div>
+                                <p>西华师范大学π3小组</p>
+                                <span>｜</span>
+                            </div>
+                        </div>
+                        <div class="bottom_box_bottom_information">
+                            <div class="bottom_box_bottom_information_img">
+                            <img src="../img/police.png"/></div>
+                            <p>川公网安备 202413340900号</p>
+                            <p>版权所有：西华师范大学π3小组</p>
+                            <p>医院地址：四川省南苏市人民大路366号</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    </div>
+    <script src="../js/incdex.js"></script>
+    <script src="../js/侧边栏.js"></script>
+</body>
+</html>

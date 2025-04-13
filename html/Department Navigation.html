@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科室导航</title>
+    <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/Department Navigation.css">
+    <script src="../js/Department Navigation.js"></script>
+    <script src="../js/11.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <!--第一个模块 头部logo-->
+            <div class="header">
+                <img src="../img/header.png" alt="logo图" class="logo" height="120" width="100%">
+                <div class="head_name"><a href="../index/index.html">首&nbsp;&nbsp;页</a>
+                   
+                </div>
+                <div class="head_name"><a href="../html/Hospital Overview.html">医院概况</a>
+                  
+                    <div class="dropdown">
+                        <a href="../html/Hospital Overview.html">简介</a>
+                        <a href="../html/Hospital Overview 2.html">文化</a>
+                        <a href="../html/Hospital Overview 3.html">设备</a>
+                    </div>
+                </div>
+                <div class="head_name"><a href="#">患者服务</a>
+                  
+                    <div class="dropdown">
+                        <div class="dropdown_content"><a href="../html/hospital navigation.html">医院导航</a></div>
+                        <div class="dropdown_content"><a href="../html/register appointment.html">挂号</a></div>
+                        <div class="dropdown_content"><a href="../html/jiu yi liu cheng.html">就医流程</a></div>
+                    </div>
+                </div>
+                <div class="head_name"><a href="../html/Department Navigation.html">科室导航</a>
+              
+                </div>
+                <div class="head_name"><a href="../html/chaxunfuwu.html">登录/注册</a></div>
+                    <div class="head_name"><a href="../html/old.html" style="color: rgb(51, 217, 33);">老年模式</a></div>
+                
+            </div>
+        </div>
+<!--第二个 小头部导航-->
+        <div class="top_two">
+            <div class="top_back">
+                <div class="top_right">
+                    <h1>科室导航</h1>
+                </div>
+            </div>
+        </div>
+<!--第三个 科室分类导航栏-->       
+        <div class="classification">
+            <ul>
+                <li class="one active" onclick="handleClick(this, 'clinical')">
+                    <a href="javascript:void(0);"><p>临床科室</p></a>
+                </li>
+                <li class="two" onclick="handleClick(this, 'medical')">
+                    <a href="javascript:void(0);"><p>医技科室</p></a>
+                </li>
+                <li class="three" onclick="handleClick(this, 'center')">
+                    <a href="javascript:void(0);"><p>中心及其他</p></a>
+                </li>
+            </ul>
+        </div>
+<!--第四个 小科室导航-->
+<!--临床科室-->
+<!--第一排-->
+        <div id="clinical" class="first">
+            <ul>
+                <li>
+                    <p>重症医学科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：第一住院部三楼
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：13966666879
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>呼吸内科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>心血管内科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+            </ul>
+<!--第二排-->
+            <ul>
+                <li>
+                    <p>肾病内分泌科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：第一住院部二楼
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：13965457856
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>消化肝病科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>神经内科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!--第三排-->
+            <ul>
+                <li>
+                    <p>普通外科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：第二住院部二楼
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：13945687456
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>神经外科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>胸外科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!--第四排-->
+            <ul>
+                <li>
+                    <p>骨科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：第一住院部四楼
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：13945127852
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>泌尿外科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>疼痛科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!--第五排-->
+            <ul>
+                <li>
+                    <p>妇科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：第二住院部三楼
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：13965357412
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>产科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：第二住院部三楼
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：13956487425
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>儿科（新生儿科）</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：第二住院部三楼
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：13975486325
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!--第六排-->
+            <ul>
+                <li>
+                    <p>眼科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：第二住院部四楼
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：13965662548
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>耳鼻喉科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <p>口腔科</p>
+                    <div class="xian"></div>
+                    <div class="down">
+                        <a>科室地址：
+                         <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!--第七排-->
+            <ul>
+            <li>
+                <p>肿瘤科</p>
+                <div class="xian"></div>
+                <div class="down">
+                    <a>科室地址：第一住院部五楼
+                     <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：13845123654
+                    </a>
+                </div>
+            </li>
+            </ul>
+        </div>
+<!-- 这里可添加医技科室和中心及其他的内容 -->
+        <div id="medical" class="first" style="display: none;">
+        <!-- 医技科室内容 -->
+         <!--第一排-->
+        <ul>
+            <li>
+                <p>药剂科</p>
+                <div class="xian"></div>
+                <div class="down">
+                    <a>科室地址：第一住院大楼一楼
+                     <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：856546
+                    </a>
+                </div>
+            </li>
+            <li>
+                <p>检验科</p>
+                <div class="xian"></div>
+                <div class="down">
+                    <a>科室地址：门诊大楼一楼
+                     <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：8531480
+                    </a>
+                </div>
+            </li>
+            <li>
+                <p>医学影像科</p>
+                <div class="xian"></div>
+                <div class="down">
+                    <a>科室地址：门诊负一楼
+                     <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：8531450
+                    </a>
+                </div>
+            </li>
+        </ul>
+
+         <!--第二排-->
+         <ul>
+            <li>
+                <p>超声医学科</p>
+                <div class="xian"></div>
+                <div class="down">
+                    <a>科室地址：第一住院大楼一楼
+                     <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：8531490
+                    </a>
+                </div>
+            </li>
+        </ul>
+        </div>
+        <div id="center" class="first" style="display: none;">
+    <!-- 中心及其他内容 -->
+       <!--第一排-->
+       <ul>
+        <li>
+            <p>急诊科</p>
+            <div class="xian"></div>
+            <div class="down">
+                <a>科室地址：门诊大楼一楼
+                 <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：8532421
+                </a>
+            </div>
+        </li>
+        <li>
+            <p>麻醉手术科</p>
+            <div class="xian"></div>
+            <div class="down">
+                <a>科室地址：门诊大楼二楼
+                 <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：8532450
+                </a>
+            </div>
+        </li>
+        <li>
+            <p>血液净化室</p>
+            <div class="xian"></div>
+            <div class="down">
+                <a>科室地址：
+                 <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：8532465
+                </a>
+            </div>
+        </li>
+    </ul>
+     <!--第二排-->
+     <ul>
+        <li>
+            <p>发热（肠道）门诊</p>
+            <div class="xian"></div>
+            <div class="down">
+                <a>科室地址：门诊大楼二楼
+                 <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：8531490
+                </a>
+            </div>
+        </li>
+        <li>
+            <p>精神病社会防治科</p>
+            <div class="xian"></div>
+            <div class="down">
+                <a>科室地址：门诊大楼四楼
+                 <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科室电话：8531490
+                </a>
+            </div>
+        </li>
+    </ul>
+        </div>
+
+<!--侧边栏-->
+<div class="right" id="sidebar">
+    <div class="collapse-btn" onclick="toggleSidebar()">
+        <i class="fa-solid fa-arrow-left" id="collapse-arrow"></i>
+    </div>
+    <div class="right_on">
+        <ul>
+            <li>
+                <a href="../html/register appointment.html">
+                    <img src="../img/yu yue.png" alt="yuyue">
+                    <br>
+                    预约挂号
+                </a>
+            </li>
+            <li>
+                <div class="jingling1"></div>
+                <br>
+                <a href="../html/hospital navigation.html">医院导航</a>
+            </li>
+            <li>
+                <div class="jingling2"></div>
+                <br>
+                <a href="#">专家咨询</a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../img/gongzhonghao.png" alt="yuyue">
+                    <br>
+                    &nbsp;&nbsp;公众号
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<!--底部-->
+<div class="activity_bottom">
+    <div>
+        <ul>
+            <a>
+                <a href="#" target="_blank"><img src="../img/bottom1.png" style="height: 40px; margin-right: 10px;"/></a>
+                <a href="#" target="_blank"><img src="../img/bottom2.jpg" style="height: 40px; margin-right: 10px;"/></a>
+                <a href="#" target="_blank"><img src="../img/bottom3.png" style="height: 40px; margin-right: 10px;"/></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="one">
+        <p>备案编号：川R-20250401 ︱ 参考官网：南充市中心医院 ︱ 南充市身心医院 ︱ 制作小组：西华师范大学π3小组 ︱ 
+            <br><br>
+        </p>
+    </div>
+
+    <div class="two">
+        <p>
+            <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" style="color: rgb(163, 160, 160)">
+                <img src="../img/police.png" />川公网安备 202413340900号
+            </a>
+            <span style="color: rgb(163, 160, 160);">版权所有：西华师范大学π3小组&nbsp;&nbsp;医院地址：四川省南苏市人民大路366号</span>
+        </p>
+    </div>
+</div>
+
+    </div>
+</body>
+</html>

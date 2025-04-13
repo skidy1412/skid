@@ -1,0 +1,230 @@
+/* li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.top_back{
+    background: url(../img/top.jpg)no-repeat center;
+    background-size: cover;
+    background-position: -2px -420px;
+    z-index: 2;
+    height: 170px;
+    top: 165px;
+    position: relative;
+}
+.top_right h1{
+    margin-left: 80px;
+    word-spacing: 8px;
+    letter-spacing: 6px;
+    color: rgba(245, 245, 245, 0.895);
+    font-family: Agave;
+    z-index: 20;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.top_two ul {
+    width: 75%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    list-style-type: none;
+    color: rgba(26, 87, 219, 0.758);
+}
+
+.top_two ul li {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.top_two ul li a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: rgb(83, 117, 228);
+}
+
+.top_two ul li a:link {
+    color: white;
+}
+
+.top_two ul li a:visited {
+    background-color: aliceblue;
+    border-radius: 25%;
+}
+
+.top_two ul li a:hover {
+    cursor: pointer;
+    color: rgb(83, 117, 228) !important;
+    border: 1px solid gainsboro;
+    border-radius: 25%;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+
+.top_two ul li a:active,
+.top_two ul li a.clicked {
+    color: rgb(83, 117, 228);
+    background-color: aliceblue;
+    border-radius: 25%;
+}
+
+/* 媒体查询，实现响应式设计 */
+@media (max-width: 768px) {
+    .top_two ul {
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .top_two ul li {
+        width: 50%;
+        margin: 10px 0;
+    }
+}
+
+.top_two {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+       .top_two ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+       .top_two ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+       .center {
+            margin-top: 200px;
+            height: 1300px;
+            width: 80%;
+            margin-left: 10%;
+            background-color: rgb(218, 231, 234);
+            position: relative;
+        }
+
+       .center ul {
+            width: 50%;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            color: rgba(26, 87, 219, 0.758);
+            margin-left: -50px;
+            float: left;
+            margin-top: 10px;
+        }
+
+       .center ul li {
+            width: 25%;
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+       .center ul li a {
+            display: inline-block;
+            padding: 5px 8px;
+            text-decoration: none;
+        }
+
+       .center ul li a:link {
+            color: white;
+        }
+
+       .center ul li a:visited {
+            color: rgb(83, 117, 228);
+        }
+
+       .center ul li a:hover {
+            color: #ff6600;
+            background-color: #f4f4f4;
+        }
+
+       .center ul li a:active {
+            color: #ff0000;
+        }
+
+       .center ul li a.clicked {
+            color: #ff0000;
+            background-color: antiquewhite;
+        }
+
+       .content {
+            display: none;
+            padding: 20px;
+        }
+
+       .content.active {
+            display: block;
+        }
+
+        .center_box1 {
+    width: 850px;
+    height: 200px;
+    left: 50px;
+    top: -10px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    font-size: 28px;
+}
+
+
+
+.center_box1 {
+    width: 850px;
+    height: 200px;
+    left: 50px;
+    top: -10px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    font-size: 28px;
+}
+
+.center_box1::before {
+    content: '';
+    width: 20%; /* 按照1:5的比例，这里是蓝色部分的宽度 */
+    height: 2px;
+    background: blue; /* 前面部分颜色设为蓝色 */
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 0; /* 从盒子左侧开始 */
+}
+
+.center_box1::after {
+    content: '';
+    width: 80%; /* 按照1:5的比例，这里是黑色部分的宽度 */
+    height: 1px;
+    background: black; /* 后面部分颜色设为黑色 */
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 20%; /* 从蓝色部分结束的位置开始 */
+}
+
+.center_boxc {
+    top:-100px;
+    height: 750px;
+    width: 100%;
+    align-items: center;
+    left: 70px;
+    position: relative;
+}

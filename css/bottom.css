@@ -1,0 +1,23 @@
+/*活动底部*/
+.activity_bottom{
+    background: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.activity_bottom .one{
+    border-top: 1px solid rgba(50, 49, 49, 0.704);
+    margin-top: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(50, 49, 49, 0.704);
+}
+.activity_bottom .one p{
+    color: rgb(97, 94, 94);
+    margin-top: 15px;
+}
+.activity_bottom .two{
+    margin-top: 9px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}

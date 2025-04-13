@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=3, initial-scale=1.0">
+        <title>颖启康源医院</title>
+        <link rel="icon" href="/img/logo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/侧边栏.css">
+        <link rel="stylesheet" href="../css/old.css">
+    </head>
+        <div class="container">
+            <!--侧边栏-->
+        <div class="right" id="sidebar">
+            <div class="collapse-btn" onclick="toggleSidebar()">
+                <i class="fa-solid fa-arrow-left" id="collapse-arrow"></i>
+            </div>
+            <div class="right_on">
+                <ul>
+                    <li>
+                        <a href="../html/register appointment.html">
+                            <img src="../img/yu yue.png" alt="yuyue">
+                            <br>
+                            预约挂号
+                        </a>
+                    </li>
+                    <li>
+                        <div class="jingling1"></div>
+                        <br>
+                        <a href="../html/hospital navigation.html">医院导航</a>
+                    </li>
+                    <li>
+                        <div class="jingling2"></div>
+                        <br>
+                        <a href="#">专家咨询</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/gongzhonghao.png" alt="yuyue">
+                            <br>
+                            &nbsp;&nbsp;公众号
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header">
+            <img src="../img/header.png" alt="logo图" class="logo" height="120" width="100%">
+            <div class="head_name"><a href="../index/index.html">首&nbsp;&nbsp;页</a></div>
+            <div class="head_name"><a href="../html/Hospital Overview.html">医院概况</a>
+                <div class="dropdown">
+                    <a href="../html/Hospital Overview.html#overview-section">简介</a>
+                    <a href="../html/Hospital Overview.html#culture-section">文化</a>
+                    <a href="../html/Hospital Overview.html#equipment-section">设备</a>
+                </div>
+            </div>
+            <div class="head_name"><a href="#">患者服务</a>
+                <div class="dropdown">
+                    <div class="dropdown_content"><a href="../html/hospital navigation.html">医院导航</a></div>
+                    <div class="dropdown_content"><a href="../html/register appointment.html">挂号</a></div>
+                    <div class="dropdown_content"><a href="../html/jiu yi liu cheng.html">就医流程</a></div>
+                </div>
+            </div>
+            <div class="head_name"><a href="../html/Department Navigation.html">科室导航</a></div>
+            <div class="head_name"><a href="../html/chaxunfuwu.html">登录/注册</a></div>
+            <div class="head_name"><a href="../html/old.html" style="color: rgb(51, 217, 33);">老年模式</a></div>
+        </div>
+            <div class="center1">
+                <h3>请如实填写下列信息</h3>
+                <p>1.姓名：</p>
+                <input type="text" id="name" value="">
+                <br>
+                <p><br>2.性别：</p>
+                <input type="radio" name="sex" id="sexFemale" /><label for="sexFemale">女</label>
+                <input type="radio" name="sex" id="sexMale" />男<br><br>
+                3.请输入您的医疗卡号：<br><input type="text" id="medicalCard" value="">
+                <br>
+                <p><br>4.年龄：</p>
+                <select id="year">
+                    <option value="50">50-60岁</option>
+                    <option value="60">60-70岁</option>
+                    <option value="70">70-80岁</option>
+                    <option value="80">80岁以上</option>
+                </select>
+                <br>
+                <br>5.请输入您的电话号码<br><input type="text" id="phone" value="" >
+                <br>
+                <p><br>6.请选择合适的挂号时间：</p>
+                <select id="time">
+                    <option value="am">上午9:00-10:00</option>
+                    <option value="am">上午10:00-11:00</option>
+                    <option value="pm">下午3:00-4:00</option>
+                    <option value="pm">下午4:00-5:00</option>
+                </select>
+                <p><br>7.挂号科室：</p>
+                <select id="keshi">
+                    <option value="">重症医学科</option>
+                    <option value="">呼吸内科</option>
+                    <option value="">心血管内科</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" id="commitCheckbox">
+                <label for="commitCheckbox">上述信息真实有效，若有误，本人将承担一切后果</label>
+                <br>
+                <input type="button" id="turnIn" value="提交" onclick="checkCheck();" />
+            </div>
+        </div>
+        <script src="../js/侧边栏.js"></script>
+        <script src="../js/old.js"></script>
+    </body>
+</html>

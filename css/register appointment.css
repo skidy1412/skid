@@ -1,0 +1,338 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+}
+a.clicked {
+    color: blue;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+
+.top_back{
+    background: linear-gradient(to right, rgba(208, 214, 113, 0.618), rgb(130, 233, 249));
+    background-size: cover;
+    background-position: -2px -420px;
+    z-index: 2;
+    height: 170px;
+    width: 100%;
+    top: 150px;
+    position: relative;
+}
+.top_right h1{
+    margin-left: 80px;
+    word-spacing: 8px;
+    letter-spacing: 6px;
+    color:black;
+    font-family: Agave;
+    z-index: 20;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.top_two ul {
+    width: 75%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    list-style-type: none;
+    color: rgba(26, 87, 219, 0.758);
+}
+
+.top_two ul li {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+    color: rgb(83, 117, 228)!important ;
+}
+
+.top_two ul li a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.top_two ul li a:link {
+    color: white;
+}
+
+.top_two ul li a:visited {
+    background-color: aliceblue;
+    border-radius: 25%;
+}
+
+.top_two ul li a:hover {
+    cursor: pointer;
+    color: rgb(83, 117, 228) !important;
+    border: 1px solid gainsboro;
+    border-radius: 25%;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+
+.top_two ul li a:active,
+.top_two ul li a.clicked {
+    color: rgb(83, 117, 228);
+    background-color: aliceblue;
+    border-radius: 25%;
+}
+
+/* 媒体查询，实现响应式设计 */
+@media (max-width: 768px) {
+    .top_two ul {
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .top_two ul li {
+        width: 50%;
+        margin: 10px 0;
+    }
+}
+
+.top_two {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+       .top_two ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+       .top_two ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .center {
+            margin-top: 200px;
+            width: auto; /* 宽度根据内容自动调整 */
+            height:auto;
+            max-width: 80%; /* 最大宽度为 80%，防止内容过多时盒子过宽 */
+            margin-left: auto; /* 水平居中 */
+            margin-right: auto;
+            background-color: rgb(218, 231, 234);
+            position: relative;
+            padding: 20px; /* 添加内边距，使内容与边框有一定距离 */
+        }
+
+       .center ul {
+            width: 50%;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            color: rgba(26, 87, 219, 0.758);
+            margin-left: -50px;
+            float: left;
+            margin-top: 10px;
+        }
+
+       .center ul li {
+            width: 25%;
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+       .center ul li a {
+            display: inline-block;
+            padding: 5px 8px;
+            text-decoration: none;
+        }
+
+       .center ul li a:link {
+            color: white;
+        }
+
+       .center ul li a:visited {
+            color: rgb(83, 117, 228);
+        }
+
+       .center ul li a:hover {
+            color: #ff6600;
+            background-color: #f4f4f4;
+        }
+
+       .center ul li a:active {
+            color: #ff0000;
+        }
+
+       .center ul li a.clicked {
+            color: #ff0000;
+            background-color: antiquewhite;
+        }
+
+       .content {
+            display: none;
+            padding: 20px;
+        }
+
+       .content.active {
+            display: block;
+        }
+
+.center_box1 {
+    width: 850px;
+    height: 200px;
+    left: 50px;
+    top: -10px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.center_box1 img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.center_box1::after {
+    content: '';
+    width: 1050px;
+    height: 1px;
+    background: black;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* 图片显现 */
+.activity_inner_one .hidden {
+    position: absolute;
+    background: rgba(37, 37, 37, 0.896);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    color: #ffffff;
+}
+
+.activity_inner_one .hidden .outter {
+    position: absolute;
+    background: rgba(37, 37, 37, 0.556);
+    width: 80%;
+    height: 90%;
+    opacity: 1;
+    color: #ffffff;
+    border: 1px solid #d11f20;
+    top: 15px;
+    margin-left: 30px;
+}
+
+.activity_inner_one .hidden::before {
+    background: #d11f20;
+    width: 6px;
+    height: 23px;
+    margin-top: 15px;
+    left: 0;
+    position: absolute;
+    content: '';
+}
+
+h5 {
+    padding-top: 60px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.activity_inner_one .hidden .outter p {
+    font-size: 14px;
+    padding-left: 15px;
+    margin-top: 15px;
+    text-align: justify;
+    padding-right: 15px;
+}
+
+.activity_inner_one .hidden .outter .anniu {
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    text-align: center;
+    background: #d11f20;
+    height: 30px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.activity_inner_one .out .hidden:hover {
+    opacity: 1;
+    transition: all 0.4s linear;
+}
+
+.activity_inner_one .hidden .outter:hover {
+    opacity: 1;
+    border: 2px solid #d11f20;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    /* 增加行间距 */
+    row-gap: 20px;
+    column-gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s;
+    height: 50px;
+    white-space: nowrap;
+}
+
+.grid-item:hover {
+    background-color: #e0e0e0;
+}
+
+.arrow {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: lightblue;
+    clip-path: polygon(0% 30%, 70% 30%, 70% 10%, 100% 50%, 70% 90%, 70% 70%, 0% 70%);
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.grid-item:hover .arrow {
+    opacity: 1;
+    transform: translate(100%, -50%);
+}    

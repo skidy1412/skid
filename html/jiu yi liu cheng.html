@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/hospital navigation.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/cebian.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/process.css">
+    <link rel="stylesheet" type="text/css" href="../css/bottom.css">
+    <title>就医流程</title>
+</head>
+
+<body>
+     <!--侧边栏-->
+     <div class="right" id="sidebar">
+        <div class="collapse-btn" onclick="toggleSidebar()">
+            <i class="fa-solid fa-arrow-left" id="collapse-arrow"></i>
+        </div>
+        <div class="right_on">
+            <ul>
+                <li>
+                    <a href="../html/register appointment.html">
+                        <img src="../img/yu yue.png" alt="yuyue">
+                        <br>
+                        预约挂号
+                    </a> 
+                </li>
+                <li>
+                    <div class="jingling1"></div>
+                    <br>
+                    <a href="../html/hospital navigation.html">医院导航</a>
+                </li>
+                <li>
+                    <div class="jingling2"></div>
+                    <br>
+                    <a href="#">专家咨询</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/gongzhonghao.png" alt="yuyue">
+                        <br>
+                        &nbsp;&nbsp;公众号
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="head">
+        <!--第一个模块 头部logo-->
+        <div class="header">
+            <img src="../img/header.png" alt="logo图" class="logo" height="120px" width="100%">
+            <div class="head_name"><a href="../index/index.html">首  页</a>
+                <!-- <div class="head_line"></div> -->
+            </div>
+            <div class="head_name"><a href="../html/Department Navigation.html">医院概况</a>
+                <!-- <div class="head_line"></div> -->
+                <div class="dropdown">
+                    <a href="../html/Hospital Overview.html#overview-section">简介</a>
+                    <a href="../html/Hospital Overview.html#culture-section">文化</a>
+                    <a href="../html/Hospital Overview.html#equipment-section">设备</a>
+                </div>
+            </div>
+            <div class="head_name"><a href="#">患者服务</a>
+                <!-- <div class="head_line"></div> -->
+                <div class="dropdown">
+                    <div class="dropdown_content"><a href="../html/hospital navigation.html">医院导航</a></div>
+                    <div class="dropdown_content"><a href="../html/register appointment.html">挂号</a></div>
+                    <div class="dropdown_content"><a href="../html/jiu yi liu cheng.html">就医流程</a></div>
+                </div>
+            </div>
+            <div class="head_name"><a href="../html/Department Navigation.html">科室导航</a>
+                <!-- <div class="head_line"></div> -->
+            </div>
+            <div class="head_name"><a href="../html/chaxunfuwu.html">登录/注册</a></div>
+                <div class="head_name"><a href="../html/old.html" style="color: rgb(51, 217, 33);">老年模式</a></div>
+                <!-- <div class="head_line"></div> -->
+            
+        </div>
+        <div class="top_two">
+            <div class="top_back">
+                <div class="top_right">
+                    <h1>就医流程</h1>
+                </div>
+                <ul>
+                    <li>
+                        <a href="jiu yi liu cheng.html">
+                            <p>就医流程</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="yiyao.html">
+                            <p>医药配送服务</p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="center">
+            <ul>
+                <li>
+                    <a href="#" id="gynecology-link" data-target="gynecology-content">挂号方式</a>
+                </li>
+                <li>
+                    <a href="#" id="pediatrics-link" data-target="pediatrics-content">开诊时间</a>
+                </li>
+                <li>
+                    <a href="#" id="oncology-link" data-target="oncology-content">门诊检查流程</a>
+                </li>
+                <li>
+                    <a href="#" id="oncology1-link" data-target="oncology1-content">病历复印流程</a>
+                </li>
+            </ul>
+            <div id="gynecology-content" class="content active"><div class="jiuyi">
+                    <p>        1、微信预约挂号：关注“南充市身心医院”微信公众号，点击“医疗服务”，点击“挂号”，依次选择科室、医生、时间，进行预约挂号</p>
+                    <br><br><br>        <img src="../img/jiuyi.jpg" width="500px" height="500px"><br><br><br>
+                    <p>        2、自助机挂号：插入就诊卡/社保卡确认个人信息→选择科室→选择医生→选择时段→缴费后前往诊室就诊
+
+                        <br><br>        3、现场预约挂号：持身份证或就诊卡（无身份证患者填写就诊信息卡）→预检分诊→挂号（办卡）→候诊区坐等叫号→诊室就诊→缴费→<br><br>取药/检查/治疗→就诊完成</p>
+                </div></div>
+            <div id="pediatrics-content" class="content"><br><br><br><br><h3>    门诊开诊时间</h3>
+                <br><br><br>
+                <table>
+                    <tr>
+                        <th class="cell-bg-1">门诊科室</th>
+                        <th class="cell-bg-2">上午</th>
+                        <th class="cell-bg-3">下午</th>
+                    </tr>
+                    <tr>
+                        <td class="cell-bg-4">普通诊室</td>
+                        <td class="cell-bg-5">8:00 - 12:00</td>
+                        <td class="cell-bg-6">14:30 - 17:30</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-bg-7">急诊科</td>
+                        <td rowspan="2" colspan="2" class="merged-cell-1">24小时开诊</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-bg-8">发热门诊</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-bg-4">夜间门诊时间</td>
+                        <td colspan="2" class="merged-cell-2">周一至周五17:30 - 21:00</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-bg-10">便民门诊</td>
+                        <td colspan="2" class="merged-cell-3">周一至周五8:00 - 12:00 14:30 - 17:30</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="oncology-content" class="content"><br><br><br><br><h3>    门诊开诊时间</h3><br><br>                <img src="../img/menzhen.png" width="500px" height="600px">
+                <p>        说明:</p>
+                <p>        1. 部分特殊检（胃镜、肠镜、心脏彩超、血管彩超、病理科病理活检、CT、MRI）预约时间较长，建议到相关检查科室预约台询问能够检查的时间，再确定是否缴费。</p><br>
+                <p>        2. 普通放射（DR）、CT、MRI请到门诊负一楼自助机打印报告，抽血、大小便检测、核酸检测报告请到门诊一楼检验科自助机打印。</p><br>
+                <p>        3. 彩超取报告时间大约20分钟</p><br>
+
+                <p>        4. 心电图取报告时间大约20分钟</p>
+            </div>
+            <div id="oncology1-content" class="content"><br><br><br><br><h3>    门诊开诊时间</h3><br><br>                        <img src="../img/fuyin.png" width="600px" height="700px"></div>
+        </div>
+<!--底部-->
+<div class="activity_bottom">
+    <div>
+        <ul>
+            <a>
+                <a href="#" target="_blank"><img src="../img/bottom1.png" style="height: 40px; margin-right: 10px;"/></a>
+                <a href="#" target="_blank"><img src="../img/bottom2.jpg" style="height: 40px; margin-right: 10px;"/></a>
+                <a href="#" target="_blank"><img src="../img/bottom3.png" style="height: 40px; margin-right: 10px;"/></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="one">
+        <p>备案编号：川R-20250401 ︱ 参考官网：南充市中心医院 ︱ 南充市身心医院 ︱ 制作小组：西华师范大学π3小组 ︱ 
+            <br><br>
+        </p>
+    </div>
+
+    <div class="two">
+        <p>
+            <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" style="color: rgb(163, 160, 160)">
+                <img src="../img/police.png" />川公网安备 202413340900号
+            </a>
+            <span style="color: rgb(163, 160, 160);">版权所有：西华师范大学π3小组&nbsp;&nbsp;医院地址：四川省南苏市人民大路366号</span>
+        </p>
+    </div>
+</div>      
+        <script src="../js/jiuyi.js"></script>
+<script src="../js/cebian.js"></script>
+</body>
+
+</html>

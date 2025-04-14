@@ -67,10 +67,6 @@ function checkCheck() {
                     return;
                 }
 
-                if (keshi === '') {
-                    alert('请选择挂号科室');
-                    return;
-                }
 
                 if (!checkbox) {
                     alert('请勾选确认信息真实有效');
